@@ -132,6 +132,10 @@
   display: none;
 }
 
+.mobile-drawer {
+  display: none;
+}
+
 @media (max-width: 1080px) {
   .nav-links {
     display: none;
@@ -160,6 +164,7 @@
   }
 
   .mobile-drawer {
+    display: flex;
     position: fixed;
     top: var(--nav-height);
     right: 0;
@@ -168,7 +173,6 @@
     background: #0D0D12;
     border-left: 1px solid rgba(168, 85, 247, 0.25);
     padding: 30px 24px;
-    display: flex;
     flex-direction: column;
     gap: 10px;
     transform: translateX(100%);
