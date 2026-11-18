@@ -1,0 +1,198 @@
+/* src/styles/Education.css */
+
+.education-section {
+  position: relative;
+  background: linear-gradient(180deg, rgba(5, 5, 5, 0.4) 0%, rgba(16, 16, 20, 0.5) 50%, rgba(5, 5, 5, 0.4) 100%);
+}
+
+.timeline-wrapper {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Vertical Timeline Glowing Center Line */
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 32px;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.6) 0%, rgba(124, 58, 237, 0.3) 70%, transparent 100%);
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 80px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Timeline Node Icon */
+.timeline-node {
+  position: absolute;
+  left: 17px;
+  top: 24px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #0D0D14;
+  border: 2px solid var(--accent-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-light);
+  box-shadow: 0 0 18px rgba(168, 85, 247, 0.6);
+  z-index: 3;
+  transition: all var(--transition-normal);
+}
+
+.timeline-item:hover .timeline-node {
+  transform: scale(1.18);
+  border-color: #FFFFFF;
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.9);
+}
+
+/* Timeline Card */
+.timeline-card {
+  padding: 30px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(12px);
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-item:hover .timeline-card {
+  border-color: var(--accent-purple);
+  background: var(--bg-card-hover);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(168, 85, 247, 0.15);
+  transform: translateX(6px);
+}
+
+.timeline-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.timeline-degree {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: -0.01em;
+}
+
+.timeline-institution {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  margin-top: 4px;
+}
+
+.timeline-affiliation {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.timeline-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timeline-percentage-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 8px 14px;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(124, 58, 237, 0.1));
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
+}
+
+.percentage-value {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  font-family: var(--font-mono);
+}
+
+.percentage-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-accent);
+}
+
+.timeline-duration-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.timeline-description {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.timeline-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.timeline-pill {
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  background: rgba(168, 85, 247, 0.08);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  color: var(--text-accent);
+}
+
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 20px;
+  }
+  .timeline-node {
+    left: 5px;
+    top: 20px;
+    width: 28px;
+    height: 28px;
+  }
+  .timeline-item {
+    padding-left: 50px;
+  }
+  .timeline-card {
+    padding: 22px 18px;
+  }
+  .timeline-card-header {
+    flex-direction: column;
+  }
+  .timeline-percentage-badge {
+    align-items: flex-start;
+  }
+}

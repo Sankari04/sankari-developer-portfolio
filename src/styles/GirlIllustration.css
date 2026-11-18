@@ -1,0 +1,185 @@
+/* src/styles/GirlIllustration.css */
+
+.illustration-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1200px;
+}
+
+.illustration-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.illustration-svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.7));
+  overflow: visible;
+}
+
+/* Floating Badges around character */
+.floating-badge {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: rgba(16, 16, 22, 0.85);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), 0 0 16px rgba(168, 85, 247, 0.25);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  pointer-events: auto;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.floating-badge:hover {
+  transform: scale(1.08) translateY(-4px);
+  border-color: var(--accent-purple);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7), 0 0 25px rgba(168, 85, 247, 0.5);
+}
+
+.badge-react {
+  top: 6%;
+  right: 4%;
+  animation: badgeFloat1 4.2s ease-in-out infinite;
+}
+
+.badge-code {
+  bottom: 12%;
+  left: 2%;
+  animation: badgeFloat2 4.8s ease-in-out infinite;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent-light);
+}
+
+.badge-figma {
+  bottom: 22%;
+  right: -2%;
+  animation: badgeFloat3 5.1s ease-in-out infinite;
+}
+
+.badge-mca {
+  top: 10%;
+  left: 2%;
+  animation: badgeFloat4 4.5s ease-in-out infinite;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(16, 16, 22, 0.9));
+  border-color: rgba(168, 85, 247, 0.5);
+}
+
+@keyframes badgeFloat1 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+@keyframes badgeFloat2 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(-2deg); }
+}
+
+@keyframes badgeFloat3 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1.5deg); }
+}
+
+@keyframes badgeFloat4 {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(-1.5deg); }
+}
+
+/* SVG Interior Animations */
+.svg-eye-blink {
+  animation: eyeBlink 4.2s infinite ease-in-out;
+  transform-origin: 50% 48%;
+}
+
+.svg-hair-left {
+  animation: hairSwayLeft 5s infinite ease-in-out;
+}
+
+.svg-hair-right {
+  animation: hairSwayRight 4.6s infinite ease-in-out;
+}
+
+.svg-screen-glow {
+  animation: laptopScreenGlow 3s infinite ease-in-out;
+}
+
+.svg-screen-beam {
+  animation: beamPulse 3s infinite ease-in-out;
+}
+
+.svg-orbit-ring {
+  animation: rotateOrbit 40s linear infinite;
+  transform-origin: 300px 300px;
+}
+
+.svg-orbit-reverse {
+  animation: rotateOrbitReverse 30s linear infinite;
+  transform-origin: 300px 300px;
+}
+
+.svg-headphone-pulse {
+  animation: pulseGlow 2.5s infinite ease-in-out;
+}
+
+.svg-steam-1 {
+  animation: steamRise 3s infinite ease-in-out;
+  transform-origin: 470px 420px;
+}
+
+.svg-steam-2 {
+  animation: steamRise 3s infinite ease-in-out 1.2s;
+  transform-origin: 470px 420px;
+}
+
+.svg-particle-1 {
+  animation: particleDrift 4s infinite ease-in-out;
+}
+
+.svg-particle-2 {
+  animation: particleDrift 5s infinite ease-in-out 1.5s;
+}
+
+.svg-particle-3 {
+  animation: particleDrift 4.5s infinite ease-in-out 0.8s;
+}
+
+@media (max-width: 992px) {
+  .illustration-wrapper {
+    max-width: 440px;
+    margin-top: 20px;
+  }
+  .floating-badge {
+    padding: 6px 11px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .illustration-wrapper {
+    max-width: 320px;
+  }
+  .badge-mca { top: -2%; left: 0; }
+  .badge-react { top: -2%; right: 0; }
+  .badge-code { bottom: -2%; left: 0; }
+  .badge-figma { bottom: 6%; right: 0; }
+}

@@ -1,0 +1,138 @@
+/* src/styles/ResumeModal.css */
+
+.resume-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.resume-modal-content {
+  background: #0E0D14;
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: var(--radius-xl);
+  width: 100%;
+  max-width: 800px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9), 0 0 40px rgba(168, 85, 247, 0.25);
+}
+
+.resume-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  background: #151320;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.resume-modal-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.resume-modal-close-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 6px;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.resume-modal-close-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: #EF4444;
+  color: #FFFFFF;
+}
+
+.resume-modal-body {
+  padding: 28px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: #0C0B12;
+}
+
+.resume-paper {
+  background: #FFFFFF;
+  color: #18181B;
+  border-radius: 12px;
+  padding: 35px 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.resume-paper h2 {
+  color: #18181B;
+  font-size: 1.8rem;
+  margin-bottom: 2px;
+}
+
+.resume-paper-sub {
+  color: #7C3AED;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.resume-paper-contacts {
+  font-size: 0.82rem;
+  color: #52525B;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #E4E4E7;
+  margin-bottom: 18px;
+}
+
+.resume-section-heading {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #7C3AED;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 16px 0 8px;
+  border-bottom: 1px solid #E4E4E7;
+  padding-bottom: 4px;
+}
+
+.resume-paper p, .resume-paper li {
+  color: #27272A;
+  font-size: 0.88rem;
+}
+
+.resume-paper ul {
+  padding-left: 20px;
+  margin: 6px 0;
+}
+
+@media (max-width: 640px) {
+  .resume-paper {
+    padding: 20px 16px;
+  }
+}

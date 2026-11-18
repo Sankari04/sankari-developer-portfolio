@@ -1,0 +1,185 @@
+/* src/styles/animations.css */
+
+/* Ambient & UI Keyframes */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.35), 0 0 45px rgba(124, 58, 237, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(168, 85, 247, 0.6), 0 0 70px rgba(124, 58, 237, 0.35);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+@keyframes rotateOrbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateOrbitReverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes cursorBlink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Character Specific Animations */
+@keyframes hairSwayLeft {
+  0%, 100% {
+    transform: rotate(0deg);
+    transform-origin: 30% 25%;
+  }
+  50% {
+    transform: rotate(2deg) translateY(-2px);
+    transform-origin: 30% 25%;
+  }
+}
+
+@keyframes hairSwayRight {
+  0%, 100% {
+    transform: rotate(0deg);
+    transform-origin: 70% 25%;
+  }
+  50% {
+    transform: rotate(-2.5deg) translateY(-1.5px);
+    transform-origin: 70% 25%;
+  }
+}
+
+@keyframes eyeBlink {
+  0%, 92%, 100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.08);
+  }
+}
+
+@keyframes laptopScreenGlow {
+  0%, 100% {
+    opacity: 0.85;
+    filter: drop-shadow(0 0 16px rgba(168, 85, 247, 0.65));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 28px rgba(192, 132, 252, 0.9));
+  }
+}
+
+@keyframes beamPulse {
+  0%, 100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
+@keyframes badgeHoverOscillate {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes steamRise {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scaleX(0.8);
+  }
+  50% {
+    opacity: 0.6;
+    transform: translateY(-8px) scaleX(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-16px) scaleX(1.3);
+  }
+}
+
+@keyframes particleDrift {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-40px) scale(0.6);
+    opacity: 0;
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Helper utility animation classes */
+.animate-float {
+  animation: floatSlow 4.5s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 5s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-rotate {
+  animation: rotateOrbit 25s linear infinite;
+}

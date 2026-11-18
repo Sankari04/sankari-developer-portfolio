@@ -1,0 +1,170 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4936 >>
+stream
+/F2 22 Tf
+0.100 0.100 0.120 rg
+BT 40 750 Td (SANKARI) Tj ET
+/F2 12 Tf
+0.450 0.180 0.850 rg
+BT 40 732 Td (Aspiring Software Developer | MCA Student) Tj ET
+/F1 9 Tf
+0.350 0.350 0.400 rg
+BT 40 717 Td (Madurai, Tamil Nadu, India  |  nsankari0910@gmail.com  |  linkedin.com/in/sankari10  |  github.com/Sankari04) Tj ET
+0.700 0.400 0.950 RG
+1.5 w
+40 708 m 572 708 l S
+/F2 11 Tf
+0.450 0.180 0.850 rg
+BT 40 692 Td (PROFESSIONAL SUMMARY) Tj ET
+/F1 9 Tf
+0.150 0.150 0.200 rg
+BT 40 677 Td (MCA student with a strong mathematics background and deep interest in software engineering, frontend) Tj ET
+BT 40 664 Td (technologies, and full-stack development. Experienced in designing intuitive user interfaces and building) Tj ET
+BT 40 651 Td (scalable web applications using React.js, Node.js, and MySQL. Passionate about solving real-world problems.) Tj ET
+/F2 11 Tf
+0.450 0.180 0.850 rg
+BT 40 633 Td (EDUCATION) Tj ET
+/F2 10 Tf
+0.100 0.100 0.100 rg
+BT 40 618 Td (Master of Computer Applications \(MCA\)) Tj ET
+/F1 9 Tf
+0.300 0.300 0.350 rg
+BT 400 618 Td (2025 - 2027 | Score: 83%) Tj ET
+BT 40 605 Td (Fatima College, Madurai \(Affiliated to Madurai Kamaraj University\)) Tj ET
+BT 40 593 Td (Key Focus: Software Engineering, Web Technologies, Database Systems, Object-Oriented Programming) Tj ET
+/F2 10 Tf
+0.100 0.100 0.100 rg
+BT 40 577 Td (Bachelor of Science in Mathematics \(B.Sc.\)) Tj ET
+/F1 9 Tf
+0.300 0.300 0.350 rg
+BT 400 577 Td (Completed: 2025 | Score: 74%) Tj ET
+BT 40 564 Td (Fatima College, Madurai \(Affiliated to Madurai Kamaraj University\)) Tj ET
+BT 40 552 Td (Key Focus: Discrete Mathematics, Mathematical Modeling, Numerical Methods, Logical Analysis) Tj ET
+/F2 11 Tf
+0.450 0.180 0.850 rg
+BT 40 534 Td (TECHNICAL SKILLS) Tj ET
+/F2 9.5 Tf
+0.100 0.100 0.100 rg
+BT 40 519 Td (Programming Languages:) Tj ET
+/F1 9 Tf
+0.200 0.200 0.250 rg
+BT 170 519 Td (Java, Python, JavaScript \(ES6+\)) Tj ET
+/F2 9.5 Tf
+0.100 0.100 0.100 rg
+BT 40 504 Td (Frontend Technologies:) Tj ET
+/F1 9 Tf
+0.200 0.200 0.250 rg
+BT 170 504 Td (HTML5, CSS3, JavaScript, React.js, Responsive Design, CSS Animations) Tj ET
+/F2 9.5 Tf
+0.100 0.100 0.100 rg
+BT 40 489 Td (Databases & Backend:) Tj ET
+/F1 9 Tf
+0.200 0.200 0.250 rg
+BT 170 489 Td (MySQL \(Relational Database Design, Queries, Joins\), Node.js, Express.js) Tj ET
+/F2 9.5 Tf
+0.100 0.100 0.100 rg
+BT 40 474 Td (Developer Tools:) Tj ET
+/F1 9 Tf
+0.200 0.200 0.250 rg
+BT 170 474 Td (Git, GitHub, VS Code, Figma \(UI/UX Wireframing & Prototyping\)) Tj ET
+/F2 11 Tf
+0.450 0.180 0.850 rg
+BT 40 456 Td (INTERNSHIP EXPERIENCE) Tj ET
+/F2 10 Tf
+0.100 0.100 0.100 rg
+BT 40 441 Td (UI/UX Design Intern | Infosys Springboard) Tj ET
+/F1 9 Tf
+0.350 0.350 0.400 rg
+BT 450 441 Td (May 2025) Tj ET
+/F2 9 Tf
+0.200 0.200 0.250 rg
+BT 50 428 Td (Project: Campus Event Hub) Tj ET
+/F1 9 Tf
+0.200 0.200 0.250 rg
+BT 50 415 Td (- Designed 2 comprehensive user interfaces \(Admin and User portals\) using Figma.) Tj ET
+BT 50 402 Td (- Created user-friendly layouts focusing on usability, navigation flow, and visual accessibility.) Tj ET
+BT 50 389 Td (- Converted Figma designs into interactive frontend web pages using HTML, CSS, and JavaScript.) Tj ET
+/F2 11 Tf
+0.450 0.180 0.850 rg
+BT 40 371 Td (KEY PROJECTS) Tj ET
+/F2 10 Tf
+0.100 0.100 0.100 rg
+BT 40 356 Td (Doctor Appointment Management System) Tj ET
+/F1 8.5 Tf
+0.350 0.350 0.400 rg
+BT 340 356 Td (React.js, Node.js, Express, MySQL) Tj ET
+/F1 9 Tf
+0.200 0.200 0.250 rg
+BT 50 343 Td (- Engineered a full-stack appointment platform with 3 dedicated modules: Patients, Doctors, and Admin.) Tj ET
+BT 50 330 Td (- Built appointment booking, real-time queue token generation, and medication tracking.) Tj ET
+BT 50 317 Td (- Integrated secure JWT-based authentication and role-based access control.) Tj ET
+/F1 8.5 Tf
+0.450 0.180 0.850 rg
+BT 50 304 Td (GitHub: github.com/Sankari04/Doctor_appointment_system) Tj ET
+/F2 10 Tf
+0.100 0.100 0.100 rg
+BT 40 288 Td (E-Commerce Web Application) Tj ET
+/F1 8.5 Tf
+0.350 0.350 0.400 rg
+BT 340 288 Td (HTML5, CSS3, JavaScript, MySQL) Tj ET
+/F1 9 Tf
+0.200 0.200 0.250 rg
+BT 50 275 Td (- Developed a web-based e-commerce application with clean product catalogs and filters.) Tj ET
+BT 50 262 Td (- Implemented dynamic shopping cart functionality, item counter, and responsive navigation.) Tj ET
+/F1 8.5 Tf
+0.450 0.180 0.850 rg
+BT 50 249 Td (GitHub: github.com/Sankari04/Shopping-site-Mini-project) Tj ET
+/F2 11 Tf
+0.450 0.180 0.850 rg
+BT 40 231 Td (CERTIFICATIONS) Tj ET
+/F2 9.5 Tf
+0.100 0.100 0.100 rg
+BT 40 216 Td (AI Fundamentals) Tj ET
+/F1 9 Tf
+0.300 0.300 0.350 rg
+BT 180 216 Td (IBM SkillsBuild  |  Issued: May 2026) Tj ET
+/F2 9.5 Tf
+0.100 0.100 0.100 rg
+BT 40 201 Td (Software Testing) Tj ET
+/F1 9 Tf
+0.300 0.300 0.350 rg
+BT 180 201 Td (NPTEL  |  Issued: March 2026) Tj ET
+0.850 0.850 0.880 RG
+0.5 w
+40 180 m 572 180 l S
+/F1 8 Tf
+0.500 0.500 0.550 rg
+BT 160 168 Td (Portfolio: sankari-developer-portfolio.vercel.app  |  Madurai, Tamil Nadu) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000005245 00000 n 
+0000005342 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5444
+%%EOF
