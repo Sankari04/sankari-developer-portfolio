@@ -123,5 +123,5 @@ sankari-developer-portfolio/
         ├── Contact.css
         ├── Footer.css
         └── ResumeModal.css
-
+```
 &copy; 2026 Sankari. Built with modern web technologies.
